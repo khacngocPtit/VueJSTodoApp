@@ -1,0 +1,59 @@
+#app{
+  font-size: 20px;
+}
+ul,ol{
+  width:100%;
+  margin:10px 0;
+  padding:10px;
+}
+
+li{
+  width: 95%;
+  list-style: none;
+  padding: 5px 10px;
+  border: 1px solid rgba(0,0,0,0.7);
+  border-radius: 5px;
+  margin:10px 0;
+  font-size: 20px;
+  color:rgba(0,0,0,0.7);
+}
+input[type="text"]{
+  width: 95%;
+  margin-top:20px;
+  margin-left: 10px;
+  padding: 10px;
+
+  margin-bottom:20px;
+}
+.todo-list
+{
+  padding:10px;
+  margin:auto;
+  border: 1px solid rgba(0,0,0,0.7);
+  border-radius:6px;
+}
+.result{
+  display:flex;
+  justify-content:space-between;
+}
+.acted{
+  text-decoration: line-through;
+  color:grey;
+}
+.check-all{
+  display:flex;
+  justify-content: space-between;
+  border-top:1px solid lightgrey;
+  margin:10px 0;
+  padding : 10px 0 ;
+  font-size:18px;
+}
+.filter{
+  display:flex;
+  padding:10px 0;
+}
+.active{
+  padding:5px;
+
+  background-color: limegreen;
+}
